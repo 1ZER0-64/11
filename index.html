@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="theme-color"
+    content="#070707"
+  >
+
+  <meta
+    name="description"
+    content="Some things are easier to write than to say."
+  >
+
+  <title>If You Ever Wondered</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+<body>
+
+  <div
+    id="app"
+    class="app"
+    aria-live="polite"
+  >
+
+    <!-- AMBIENT BACKGROUND -->
+
+    <div
+      class="ambient"
+      aria-hidden="true"
+    >
+      <span class="orb orb-one"></span>
+      <span class="orb orb-two"></span>
+      <span class="grain"></span>
+    </div>
+
+
+    <!-- MUSIC -->
+
+    <audio
+      id="music"
+      src="Perfect.mp3"
+      preload="auto"
+      loop
+    ></audio>
+
+
+    <!-- INTRO -->
+
+    <main
+      id="intro"
+      class="screen screen-intro"
+    >
+
+      <div class="intro-content">
+
+        <p class="eyebrow">
+          A PRIVATE PLACE
+        </p>
+
+        <h1>
+          If You<br>
+          Ever Wondered
+        </h1>
+
+        <p class="intro-copy">
+          Some things are easier to write<br>
+          than to say.
+        </p>
+
+        <button
+          id="enterButton"
+          class="primary-button"
+          type="button"
+        >
+          <span>Enter</span>
+
+          <span
+            class="button-arrow"
+            aria-hidden="true"
+          >
+            →
+          </span>
+        </button>
+
+        <p class="quiet-note">
+          This was never meant to be found.
+        </p>
+
+      </div>
+
+    </main>
+
+
+    <!-- MAIN EXPERIENCE -->
+
+    <main
+      id="experience"
+      class="experience"
+      hidden
+    >
+
+      <header class="topbar">
+
+        <button
+          id="homeButton"
+          class="text-button"
+          type="button"
+          aria-label="Return to beginning"
+        >
+          ZERO
+        </button>
+
+
+        <button
+          id="musicButton"
+          class="music-button"
+          type="button"
+          aria-label="Toggle music"
+        >
+          <span
+            class="music-icon"
+            aria-hidden="true"
+          >
+            ♫
+          </span>
+
+          <span id="musicLabel">
+            Music On
+          </span>
+
+        </button>
+
+      </header>
+
+
+      <!-- PROGRESS -->
+
+      <div
+        class="progress"
+        aria-hidden="true"
+      >
+        <span id="progressBar"></span>
+      </div>
+
+
+      <!-- CHAPTERS -->
+
+      <section
+        id="chapter"
+        class="chapter"
+        tabindex="-1"
+      >
+
+
+        <!-- CHAPTER 01 -->
+
+        <article
+          class="chapter-page active"
+          data-chapter="0"
+        >
+
+          <p class="chapter-number">
+            01 / THE DAY WE MET
+          </p>
+
+          <h2>
+            It started<br>
+            with a screen.
+          </h2>
+
+          <div class="chapter-text">
+
+            <p>
+              No dramatic beginning.
+              No movie moment.
+              Just two people who happened to find each other online.
+            </p>
+
+            <p>
+              Somehow, the conversations kept getting longer.
+              The jokes got easier.
+              The silences stopped feeling awkward.
+            </p>
+
+            <p>
+              Neither of us announced that something had changed.
+              There wasn't a moment where either of us said,
+              "This is becoming something."
+            </p>
+
+            <p>
+              It just quietly became easier to talk to you
+              than it was to explain why I wanted to.
+            </p>
+
+            <p class="emphasis">
+              And somehow, you became familiar
+              without ever being beside me.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- CHAPTER 02 -->
+
+        <article
+          class="chapter-page"
+          data-chapter="1"
+        >
+
+          <p class="chapter-number">
+            02 / THINGS I NEVER SAID
+          </p>
+
+          <h2>
+            Maybe you noticed.<br>
+            Maybe you didn't.
+          </h2>
+
+          <div class="chapter-text">
+
+            <p>
+              Sometimes I flirted because I wanted to.
+            </p>
+
+            <p>
+              Sometimes I said things that were probably
+              a little more than friendly.
+            </p>
+
+            <p>
+              Then I'd act like they meant nothing.
+            </p>
+
+            <p>
+              Maybe you did the same.
+              Maybe you didn't.
+            </p>
+
+            <p>
+              I never really asked.
+            </p>
+
+            <p>
+              Sometimes I wondered what would happen
+              if one of us ever stopped pretending
+              those little moments were just little moments.
+            </p>
+
+            <p>
+              But wondering is easy.
+              Asking is different.
+            </p>
+
+            <p class="emphasis">
+              So we stayed somewhere between
+              "just talking" and something neither of us named.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- CHAPTER 03 -->
+
+        <article
+          class="chapter-page"
+          data-chapter="2"
+        >
+
+          <p class="chapter-number">
+            03 / WHY I PUSHED YOU AWAY
+          </p>
+
+          <h2>
+            This is the part<br>
+            I couldn't explain.
+          </h2>
+
+          <div class="chapter-text">
+
+            <p>
+              There were things I wanted to tell you.
+            </p>
+
+            <p>
+              And there were things I knew I couldn't.
+            </p>
+
+            <p>
+              Not because you did anything wrong.
+              Not because I didn't trust you.
+            </p>
+
+            <p>
+              Some truths change the way people look at you
+              once they're spoken.
+            </p>
+
+            <p>
+              And I wasn't ready to find out
+              whether you'd look at me differently.
+            </p>
+
+            <p>
+              So whenever things started feeling
+              a little too real...
+            </p>
+
+            <p class="emphasis">
+              I stepped back.
+            </p>
+
+            <p>
+              You might have wondered why.
+              You might have thought I was losing interest.
+              Maybe you thought I was playing games.
+            </p>
+
+            <p>
+              The truth is,
+              I was trying to protect something.
+            </p>
+
+            <p>
+              I just never figured out whether
+              I was protecting you,
+              or myself.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- CHAPTER 04 -->
+
+        <article
+          class="chapter-page"
+          data-chapter="3"
+        >
+
+          <p class="chapter-number">
+            04 / THE THINGS YOU GAVE ME
+          </p>
+
+          <h2>
+            You probably<br>
+            don't know.
+          </h2>
+
+          <div class="chapter-text">
+
+            <p>
+              You gave me ordinary things.
+            </p>
+
+            <p>
+              Conversations.
+              Random jokes.
+              Teasing.
+              Late replies.
+              Those completely unnecessary arguments
+              that somehow became fun.
+            </p>
+
+            <p>
+              Nothing that would look important
+              if someone else read it.
+            </p>
+
+            <p>
+              But ordinary things become important
+              when you aren't expecting them to.
+            </p>
+
+            <p>
+              You made certain days lighter.
+            </p>
+
+            <p>
+              You gave me reasons to check my phone
+              a little more often than I should have.
+            </p>
+
+            <p>
+              And sometimes,
+              without knowing it,
+              you made a bad day feel less bad.
+            </p>
+
+            <p class="emphasis">
+              Funny how someone can become part of your days
+              without ever knowing they did.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- CHAPTER 05 -->
+
+        <article
+          class="chapter-page"
+          data-chapter="4"
+        >
+
+          <p class="chapter-number">
+            05 / IF THINGS WERE DIFFERENT
+          </p>
+
+          <h2>
+            I sometimes<br>
+            wonder.
+          </h2>
+
+          <div class="chapter-text">
+
+            <p>
+              Not about some perfect future.
+            </p>
+
+            <p>
+              Just small things.
+            </p>
+
+            <p>
+              Sometimes I wonder what it would be like
+              to hear your voice without a screen between us.
+            </p>
+
+            <p>
+              Would we be awkward for the first few minutes?
+            </p>
+
+            <p>
+              Would we laugh about it?
+            </p>
+
+            <p>
+              Would everything feel exactly the same...
+              or completely different?
+            </p>
+
+            <p>
+              I don't let myself imagine much beyond that.
+            </p>
+
+            <p>
+              Because once you start imagining a future,
+              it's easy to forget that you never promised one.
+            </p>
+
+            <p>
+              Maybe we meet someday.
+            </p>
+
+            <p>
+              Maybe we never do.
+            </p>
+
+            <p>
+              Maybe life takes us somewhere neither of us expects.
+            </p>
+
+            <p class="emphasis">
+              I don't know.
+            </p>
+
+            <p>
+              And strangely,
+              I'm learning to let "I don't know"
+              be enough.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- CHAPTER 06 -->
+
+        <article
+          class="chapter-page"
+          data-chapter="5"
+        >
+
+          <p class="chapter-number">
+            06 / WHAT I COULDN'T SAY
+          </p>
+
+          <h2>
+            Maybe one day.<br>
+            Maybe never.
+          </h2>
+
+          <div class="chapter-text">
+
+            <p>
+              Maybe one day I'll tell you.
+            </p>
+
+            <p>
+              Maybe I won't.
+            </p>
+
+            <p>
+              I don't know which possibility
+              scares me more.
+            </p>
+
+            <p>
+              Because if I tell you,
+              everything could change.
+            </p>
+
+            <p>
+              And if I don't...
+              maybe I'll spend a long time
+              wondering what could have happened.
+            </p>
+
+            <p>
+              But I don't want to turn my feelings
+              into promises.
+            </p>
+
+            <p>
+              I don't want to make you believe
+              in a future I can't guarantee.
+            </p>
+
+            <p>
+              And I don't want to disappear from your life
+              just because I'm afraid of what honesty might do.
+            </p>
+
+            <p class="emphasis">
+              So for now,
+              this is where the truth stays.
+            </p>
+
+            <p>
+              Here.
+              In a place you will probably never find.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- FINAL -->
+
+        <article
+          class="chapter-page final-page"
+          data-chapter="6"
+        >
+
+          <p class="chapter-number">
+            END / NOTHING
+          </p>
+
+          <h2>
+            Some things are easier<br>
+            to write to nobody.
+          </h2>
+
+          <div class="final-message">
+
+            <p>
+              I don't know what this becomes.
+            </p>
+
+            <p>
+              Maybe nothing.
+            </p>
+
+            <p>
+              Maybe just another folder
+              buried somewhere on a computer,
+              forgotten years from now.
+            </p>
+
+            <p>
+              Maybe that's okay.
+            </p>
+
+            <p>
+              Because not everything real
+              needs to become a relationship.
+            </p>
+
+            <p>
+              Not every feeling needs an answer.
+            </p>
+
+            <p>
+              Sometimes something can simply matter
+              while it exists.
+            </p>
+
+            <p class="emphasis">
+              And you did.
+            </p>
+
+            <p>
+              More than you probably ever knew.
+            </p>
+
+            <p class="signature">
+              — The boy who always said,
+              "Nothing."
+            </p>
+
+          </div>
+
+
+          <!-- READ AGAIN -->
+
+          <button
+            id="restartButton"
+            class="primary-button"
+            type="button"
+          >
+            <span>
+              Read It Again
+            </span>
+
+            <span
+              class="button-arrow"
+              aria-hidden="true"
+            >
+              ↻
+            </span>
+          </button>
+
+
+          <!-- THE END -->
+
+          <button
+            id="endButton"
+            class="end-button"
+            type="button"
+          >
+            THE END
+          </button>
+
+        </article>
+
+      </section>
+
+
+      <!-- NAVIGATION -->
+
+      <nav
+        class="chapter-navigation"
+        aria-label="Chapter navigation"
+      >
+
+        <button
+          id="previousButton"
+          class="nav-button"
+          type="button"
+          aria-label="Previous chapter"
+        >
+          ←
+        </button>
+
+
+        <div
+          id="chapterDots"
+          class="chapter-dots"
+          aria-label="Chapter progress"
+        >
+
+          <button
+            type="button"
+            data-index="0"
+            aria-label="Go to chapter 1"
+          ></button>
+
+          <button
+            type="button"
+            data-index="1"
+            aria-label="Go to chapter 2"
+          ></button>
+
+          <button
+            type="button"
+            data-index="2"
+            aria-label="Go to chapter 3"
+          ></button>
+
+          <button
+            type="button"
+            data-index="3"
+            aria-label="Go to chapter 4"
+          ></button>
+
+          <button
+            type="button"
+            data-index="4"
+            aria-label="Go to chapter 5"
+          ></button>
+
+          <button
+            type="button"
+            data-index="5"
+            aria-label="Go to chapter 6"
+          ></button>
+
+          <button
+            type="button"
+            data-index="6"
+            aria-label="Go to ending"
+          ></button>
+
+        </div>
+
+
+        <button
+          id="nextButton"
+          class="nav-button"
+          type="button"
+          aria-label="Next chapter"
+        >
+          →
+        </button>
+
+      </nav>
+
+
+      <p class="keyboard-hint">
+        Use ← → or swipe to move
+      </p>
+
+    </main>
+
+
+    <noscript>
+
+      <div class="noscript">
+        This experience needs JavaScript enabled to open.
+      </div>
+
+    </noscript>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+  </html>
